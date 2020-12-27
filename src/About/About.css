@@ -1,0 +1,25 @@
+body{
+    font-size: 12px;
+}
+
+
+.profile{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    background-color: whitesmoke;
+    width: 20%;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.profile:hover{
+    box-shadow: 25px 25px 25px 25px;
+    font-weight: 600;
+    opacity: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+}

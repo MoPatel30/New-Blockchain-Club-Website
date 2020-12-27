@@ -1,0 +1,14 @@
+body{
+    font-size: 12px;
+    z-index: 2;
+    background-color: whitesmoke;
+}
+
+.body-part{
+    background-color: whitesmoke;
+    position: relative;
+    top: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0.9;
+}
