@@ -1,3 +1,12 @@
 body{
     font-size: 12px;
 }
+
+.education{
+    display: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    opacity: 0.95; 
+    top: 300px;
+}

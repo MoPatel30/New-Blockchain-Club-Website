@@ -13,8 +13,11 @@ class Education extends React.Component{
 
     render(){
         return(
-            <div>
-                <h1> {this.state.hello} </h1>
+            <div className = "education">
+                <h1> Education </h1>
+                <h3>Articles</h3>
+                <h3>Related Links</h3>
+                <h3>Videos</h3>
             </div>
         )
     }

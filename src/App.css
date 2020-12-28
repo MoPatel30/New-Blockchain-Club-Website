@@ -20,7 +20,7 @@
 .message-style{
     background-color: whitesmoke;
     position: relative; 
-    top: 250px;  
+    top: 200px;  
     margin-left: 10%;
     margin-right: 10%; 
     padding: 40px;
@@ -32,11 +32,16 @@
 }
 
 .about{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     position: relative;
     top: 700px;
+    margin-bottom: 125px;
 
 }
 
+.education{
+    position: relative;
+    
+}

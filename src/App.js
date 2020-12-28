@@ -36,7 +36,6 @@ function App() {
                   <a class="nav-link">About</a>
                 </li>
               </ul>
-              <Education />
             </div>
           </div>
 
@@ -45,6 +44,12 @@ function App() {
       <div className = "message-style">
         <Body />
       </div>
+
+
+      <div className = "education">
+        <Education />
+      </div>
+
 
       <div className = "about">
         <About name = {adam[0]} title = {adam[1]} schooling = {adam[2]} description = {adam[3]} />
