@@ -18,22 +18,26 @@
 }
 
 .message-style{
-    background-color: whitesmoke;
+    background-color: #eaf4fc;
     position: relative; 
     top: 200px;  
-    margin-left: 10%;
-    margin-right: 10%; 
-    padding: 40px;
-    opacity: 0.95;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 40%; 
+    padding: 30px;
+    opacity: 0.90;
+    text-align: left;
+    font-weight: 500;
 }
 
 .message-style:hover{
     font-weight: 600;
+    opacity: 1;
 }
 
-.about{
-    display: inline-block;
-    justify-content: center;
+.about-pos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     position: relative;
     top: 700px;
@@ -41,7 +45,26 @@
 
 }
 
-.education{
+.education-pos{
     position: relative;
+    top: 300px;
     
+}
+
+
+.footer-pos{
+    background-color: #eaf4fc;
+    position: relative;
+    bottom: -650px;
+    opacity: 0.9;
+    
+}
+
+.sponsors-pos{
+    background-color: #eaf4fc;
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    opacity: 0.9;
 }

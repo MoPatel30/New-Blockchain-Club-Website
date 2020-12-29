@@ -8,18 +8,24 @@ body{
     justify-content: center;
     align-items: center;
     opacity: 0.9;
-    background-color: whitesmoke;
+    background-color: #eaf4fc;
     min-width: 30%;
     height: fit-content;
+    width: 15%;
     padding: 20px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    font-weight: 500;
 }
 
 .profile:hover{
+    /*
     box-shadow: 25px 25px 25px 25px;
+    */
     font-weight: 600;
     opacity: 1;
-    margin-left: 15px;
-    margin-right: 15px;
+ 
 }

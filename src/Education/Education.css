@@ -6,7 +6,7 @@ body{
     display: column;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
-    opacity: 0.95; 
-    top: 300px;
+    background-color: #eaf4fc;
+    opacity: 0.90; 
+    
 }
