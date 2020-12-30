@@ -9,9 +9,11 @@ body{
     align-items: center;
     opacity: 0.9;
     background-color: #eaf4fc;
-    min-width: 30%;
+    
     height: fit-content;
-    width: 15%;
+    min-width: 30%;
+    max-width: 30%;
+    
     padding: 20px;
     margin-left: 0px;
     margin-right: 0px;
@@ -28,4 +30,12 @@ body{
     font-weight: 600;
     opacity: 1;
  
+}
+
+@media(max-width: 767px){
+    .profile{
+        min-width: 100%;
+        max-width: 100%;
+
+    }
 }

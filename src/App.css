@@ -68,3 +68,15 @@
     margin-bottom: 5%;
     opacity: 0.9;
 }
+
+
+
+@media(max-width: 767px){
+    .message-style{
+        margin-right: 15%;
+        border-radius: 0px 5px 5px 0px;
+        top: 275px;
+        
+
+    }
+}

@@ -13,3 +13,14 @@ body{
     opacity: 0.9;
 }
 
+
+@media(max-width: 767px){
+    body{
+        font-size: 6px;
+    }
+    .body-part{
+        margin-right: 10%;
+    }
+
+ 
+}
