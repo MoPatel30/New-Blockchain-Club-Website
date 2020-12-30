@@ -44,7 +44,10 @@
     margin-bottom: 125px;
 
 }
-
+.crypto-pos{
+    height:100px;
+    padding:0px;
+}
 .education-pos{
     position: relative;
     top: 300px;

@@ -1,11 +1,14 @@
 import './App.css';
+import React from 'react';
 //import Bootstrap from "bootstrap"
-import "bootstrap/dist/css/bootstrap.min.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./Body/Body"
 import About from "./About/About"
 import Education from "./Education/Education"
 import Footer from "./Footer/Footer"
 import Sponsors from './Sponsors/Sponsors';
+import Track  from './Crypto/Track';
+
 
 
 
@@ -46,7 +49,9 @@ function App() {
           <p>will have routes for these</p>
 
       </nav>
-
+      <div className = "crypto-pos">
+        <Track />
+      </div>
       <div className = "message-style">
         <Body />
       </div>
