@@ -11,7 +11,7 @@ function About(props) {
             <h5>{props.title}</h5>
             <p>{props.schooling}</p>
             <p>{props.description}</p>
-            <p>need to include pictures and make more prominent</p>
+            
         </div>
     )
 }

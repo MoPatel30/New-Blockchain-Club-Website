@@ -23,14 +23,11 @@ function App() {
 
   return (
     <div className="App">
-
+      <div>
       <nav className = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
        
         <h1 style = {{color: "black"}}><i>Blockchain@LUC</i></h1>
-        <p>basic bootstrap header for now</p>
-        <p> Also need to find a better cool background</p>
-        <p>crypto tracker banner will probably go below header</p>
-        <p>random colors rn, need to find good color scheme. red is too much for the eyes</p>
+       
         <div class="container">
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
@@ -46,12 +43,14 @@ function App() {
               </ul>
             </div>
           </div>
-          <p>will have routes for these</p>
 
       </nav>
+
       <div className = "crypto-pos">
         <Track />
       </div>
+      </div>
+
       <div className = "message-style">
         <Body />
       </div>

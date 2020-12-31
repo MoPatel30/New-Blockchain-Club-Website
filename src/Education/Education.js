@@ -14,7 +14,6 @@ class Education extends React.Component{
     render(){
         return(
             <div className = "education">
-                <p>main part so must make this look good</p>
                 <h1> <i>Learn about Bitcoin & Blockchain</i> </h1>
                 <h3>Articles</h3>
                 <h3>Related Links</h3>

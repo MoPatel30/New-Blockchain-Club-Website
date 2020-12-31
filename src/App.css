@@ -44,23 +44,26 @@
     margin-bottom: 125px;
 
 }
+
 .crypto-pos{
-    height:100px;
-    padding:0px;
-}
-.education-pos{
-    position: relative;
-    top: 300px;
     
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    top: 72px;
+ 
 }
 
+.education-pos{
+    position: relative;
+    top: 300px;   
+}
 
 .footer-pos{
     background-color: #eaf4fc;
     position: relative;
     bottom: -650px;
-    opacity: 0.9;
-    
+    opacity: 0.9;   
 }
 
 .sponsors-pos{
@@ -79,7 +82,8 @@
         margin-right: 15%;
         border-radius: 0px 5px 5px 0px;
         top: 275px;
-        
-
+    
     }
+
+
 }

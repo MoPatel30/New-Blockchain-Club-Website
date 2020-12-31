@@ -1,20 +1,16 @@
 import React from 'react';
-
-import {BrowserRouter, Route} from "react-router-dom";
-
-import CoinSummaryPage from "./CoinSummaryPage";
-
+import CoinList from './CoinList';
 import { WatchListContextProvider } from './watchListContext';
+
+
 export const Track = () => {
     return (
         <div className="all-coins">
+
             <WatchListContextProvider>
-                <BrowserRouter>
-                    
-                        <Route exact path= "/" component={CoinSummaryPage} /> 
-                        
-                </BrowserRouter>
+                <CoinList />
             </WatchListContextProvider>
+
         </div>
     )
      
