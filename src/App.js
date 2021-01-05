@@ -32,13 +32,13 @@ function App() {
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link">Home</a>
+                  <a class="nav-link" href = "#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Education</a>
+                  <a class="nav-link" href = "#education">Education</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">About</a>
+                  <a class="nav-link" href = "#about">About</a>
                 </li>
               </ul>
             </div>
@@ -55,25 +55,29 @@ function App() {
         <Body />
       </div>
 
-
-      <div className = "education-pos">
-        <Education />
-      </div>
-
-
-      <div className = "about-pos">
-        <About name = {adam[0]} title = {adam[1]} schooling = {adam[2]} description = {adam[3]} />
-        <About name = {jaser[0]} title = {jaser[1]} schooling = {jaser[2]} description = {jaser[3]} />
-        <About name = {gerardo[0]} title = {gerardo[1]} schooling = {gerardo[2]} description = {gerardo[3]} />
-        <About name = {mopat[0]} title = {mopat[1]} schooling = {mopat[2]} description = {mopat[3]} />
-        <About name = {mola[0]} title = {mola[1]} schooling = {mola[2]} description = {mola[3]} />
-        <About name = {kevin[0]} title = {kevin[1]} schooling = {kevin[2]} description = {kevin[3]} />
-        
-        <div className="sponsors-pos">
-          <Sponsors />
+      <section id = "education">
+        <div className = "education-pos">
+          <Education />
         </div>
+      </section>
 
-      </div>
+
+      <section id = "about">
+
+        <div className = "about-pos">
+          <About name = {adam[0]} title = {adam[1]} schooling = {adam[2]} description = {adam[3]} />
+          <About name = {jaser[0]} title = {jaser[1]} schooling = {jaser[2]} description = {jaser[3]} />
+          <About name = {gerardo[0]} title = {gerardo[1]} schooling = {gerardo[2]} description = {gerardo[3]} />
+          <About name = {mopat[0]} title = {mopat[1]} schooling = {mopat[2]} description = {mopat[3]} />
+          <About name = {mola[0]} title = {mola[1]} schooling = {mola[2]} description = {mola[3]} />
+          <About name = {kevin[0]} title = {kevin[1]} schooling = {kevin[2]} description = {kevin[3]} />
+          
+          <div className="sponsors-pos">
+            <Sponsors />
+          </div>
+
+        </div>
+      </section>
 
 
     

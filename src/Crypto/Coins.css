@@ -20,6 +20,10 @@
         border: 1px solid rgba(0,0,0,.125);
     }
 
+    .list:hover{
+        background-color: #e0e0e0;
+    }
+
     .list-container{
         display: block;
         justify-content: center;

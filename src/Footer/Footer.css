@@ -1,4 +1,11 @@
 .footer{
-    background-color: whitesmoke;
-    
+    background-color: whitesmoke; 
+}
+
+
+.footer-routes{
+    font-size: 1.25rem;
+    color: black;
+    margin-left: 2%;
+    margin-right: 2%;
 }

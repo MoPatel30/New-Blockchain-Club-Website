@@ -2,6 +2,10 @@
     font-family: "poppins", sans serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .App-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -27,6 +31,7 @@
     opacity: 0.90;
     text-align: left;
     font-weight: 500;
+
 }
 
 .message-style:hover{
@@ -42,7 +47,6 @@
     position: relative;
     top: 700px;
     margin-bottom: 125px;
-
 }
 
 .crypto-pos{
@@ -56,7 +60,7 @@
 
 .education-pos{
     position: relative;
-    top: 300px;   
+    top: 300px;  
 }
 
 .footer-pos{
