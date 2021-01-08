@@ -8,6 +8,7 @@ import Education from "./Education/Education"
 import Footer from "./Footer/Footer"
 import Sponsors from './Sponsors/Sponsors';
 import Track  from './Crypto/Track';
+import Particles from 'react-particles-js'
 
 
 
@@ -24,6 +25,23 @@ function App() {
   return (
     <div className="App">
       <div>
+      <Particles height = "100"
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 80,
+	            "density": {
+	                "enable": true,
+	                "value_area": 800
+	            }
+	        },
+	        
+	        "move": {
+	            "speed": 5,
+              
+          }
+        }}} className = "particles" />
+	        
       <nav className = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
        
         <h1 style = {{color: "black"}}><i>Blockchain@LUC</i></h1>
