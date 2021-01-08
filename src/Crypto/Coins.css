@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
+    
     }
     
 
@@ -18,6 +19,8 @@
         max-height: 2%;
         height: 120px;
         border: 1px solid rgba(0,0,0,.125);
+       
+    
     }
 
     .list:hover{
@@ -29,8 +32,18 @@
         justify-content: center;
         flex-direction: column;
         flex-wrap: nowrap;
-       
+        
+    }
 
+
+    @keyframes example{
+        0% {left: 250%}
+        20% {left: 150%;}
+        40% {left: 50%}
+        60% {left: -50%}
+        80% {left: -150%}
+        100% {left: -250%}
+       
     }
 
     .listed-coins{
@@ -38,6 +51,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
+     
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+       
     }
 
 
@@ -53,9 +70,10 @@
     .lists-items{
         position:relative;
         display:block;
-        padding:1rem 4.64rem;
+        padding: 1rem 4.64rem;
         background-color:#fff;
-        border: 1px solid rgba(0,0,0,.125)
+        border: 1px solid rgba(0,0,0,.125);
+  
     }
     
     .coinlist-image{
@@ -66,10 +84,11 @@
     .coinlist-item{  
         display: inline;
         z-index: 100;
+
     }
 
     .list-container{
-        width:100%;
+        width: 100%;
     }
          
     .coin-data-category{
