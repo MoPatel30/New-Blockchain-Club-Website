@@ -24,54 +24,60 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-      <Particles height = "100"
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 80,
-	            "density": {
-	                "enable": true,
-	                "value_area": 800
-	            }
-	        },
-	        
-	        "move": {
-	            "speed": 5,
-              
-          }
-        }}} className = "particles" />
-	        
-      <nav className = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
-       
-        <h1 style = {{color: "black"}}><i>Blockchain@LUC</i></h1>
-       
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href = "#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href = "#education">Education</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href = "#about">About</a>
-                </li>
-              </ul>
-            </div>
+      <div id = "home-div">
+
+        <div id = "particles">
+          <Particles height = "100"
+            params={{
+              "particles": {
+                  "number": {
+                      "value": 80,
+                      "density": {
+                          "enable": true,
+                          "value_area": 800
+                      }
+                  },
+                  
+                  "move": {
+                      "speed": 3,
+                      
+                  }
+            }}} className = "particles" />
           </div>
+            
+        <nav className = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        
+          <h1 style = {{color: "black"}}><i>Blockchain@LUC</i></h1>
+        
+          <div class="container">
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href = "#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href = "#education">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href = "#about">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-      </nav>
+        </nav>
 
-      <div className = "crypto-pos">
-        <Track />
-      </div>
-      </div>
 
-      <div className = "message-style">
+        <div className = "crypto-pos">
+          <Track />
+        </div>
+
+        <div className = "message-style">
         <Body />
       </div>
+
+      </div>
+
 
       <section id = "education">
         <div className = "education-pos">
@@ -83,22 +89,20 @@ function App() {
       <section id = "about">
 
         <div className = "about-pos">
+ 
           <About name = {adam[0]} title = {adam[1]} schooling = {adam[2]} description = {adam[3]} />
           <About name = {jaser[0]} title = {jaser[1]} schooling = {jaser[2]} description = {jaser[3]} />
           <About name = {gerardo[0]} title = {gerardo[1]} schooling = {gerardo[2]} description = {gerardo[3]} />
           <About name = {mopat[0]} title = {mopat[1]} schooling = {mopat[2]} description = {mopat[3]} />
           <About name = {mola[0]} title = {mola[1]} schooling = {mola[2]} description = {mola[3]} />
           <About name = {kevin[0]} title = {kevin[1]} schooling = {kevin[2]} description = {kevin[3]} />
-          
-          <div className="sponsors-pos">
-            <Sponsors />
-          </div>
 
         </div>
       </section>
-
-
     
+      <div className="sponsors-pos">
+            <Sponsors />
+          </div>
 
 
       <div className="footer-pos">

@@ -1,5 +1,8 @@
 * {
     font-family: "poppins", sans serif;
+    border: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 html{
@@ -7,7 +10,8 @@ html{
 }
 
 .App-header {
-    background-color: #282c34;
+    background: radial-gradient(ellipse at center, rgba(2,162,239,1) 0%,rgba(3,106,179,1) 100%);
+    
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,19 +28,40 @@ html{
 .message-style{
     background-color: #eaf4fc;
     position: relative; 
-    top: 200px;  
+    top: 175px;
+    margin: auto;
+
     border-radius: 0px 10px 10px 0px;
     margin-right: 40%; 
+
     padding: 30px;
     opacity: 0.90;
     text-align: left;
     font-weight: 500;
+    z-index: 2;
 
 }
 
 .message-style:hover{
-    font-weight: 600;
     opacity: 1;
+    box-shadow: -1px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    background: linear-gradient(to left, rgb(231, 224, 224) 100%, white 50%) right;
+    transition: 0.2s ease;
+}
+
+#particles{
+    z-index: -1;
+}
+
+#home-div{
+    height: 100vh; 
+    background: radial-gradient(ellipse at center, rgb(255, 81, 81) 0%,rgb(99, 0, 0) 100%);
+}
+
+#about{
+    height: 100vh;
+    background: #fdfff5;
 }
 
 .about-pos{
@@ -45,12 +70,12 @@ html{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    top: 700px;
+    top: 125px;
     margin-bottom: 125px;
 }
 
 .crypto-pos{
-    
+    z-index: 2;
     height: fit-content;
     width: 100%;
     position: relative;
@@ -62,20 +87,22 @@ html{
     z-index: -1;
 }
 
+#education{
+    height: 100vh;
+}
 .education-pos{
     position: relative;
-    top: 300px;  
+    top: 80px;  
 }
 
 .footer-pos{
-    background-color: #eaf4fc;
+    background-color: #f3f2ed;
     position: relative;
-    bottom: -650px;
     opacity: 0.9;   
 }
 
 .sponsors-pos{
-    background-color: #eaf4fc;
+    background-color: #f3f2ed;
     position: relative;
     width: 100%;
     margin-top: 5%;

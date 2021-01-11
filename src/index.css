@@ -4,7 +4,9 @@
 
 body {
   margin: 0;
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.primafelicitas.com%2Fwp-content%2Fuploads%2F2018%2F01%2Fbigstock-Blockchain-technology-futurist-216835081-1.jpg&f=1&nofb=1");
+  /*background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.primafelicitas.com%2Fwp-content%2Fuploads%2F2018%2F01%2Fbigstock-Blockchain-technology-futurist-216835081-1.jpg&f=1&nofb=1");
+  */
+  background-color: #f3f2ed;
   background-repeat: repeat;
   background-size: cover;
   background-position: center;

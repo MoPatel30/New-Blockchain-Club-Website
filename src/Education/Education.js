@@ -18,6 +18,7 @@ class Education extends React.Component{
                 <h3>Articles</h3>
                 <h3>Related Links</h3>
                 <h3>Videos</h3>
+                <p>animated cool dropdowns or something</p>
             </div>
         )
     }

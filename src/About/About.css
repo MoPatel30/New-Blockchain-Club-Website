@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     opacity: 0.9;
-    background-color: #eaf4fc;
+    background-color: white;
     
     height: fit-content;
     min-width: 30%;
@@ -18,8 +18,8 @@ body{
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 2rem;
-    border: 2px solid black;
-    border-radius: 5%;
+    border: 1px solid black;
+    border-radius: 1%;
     font-weight: 500;
 }
 
@@ -27,8 +27,12 @@ body{
     /*
     box-shadow: 25px 25px 25px 25px;
     */
-    font-weight: 600;
+    background-color: whitesmoke;
     opacity: 1;
+    box-shadow: -1px 10px 20px -6px rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    background: linear-gradient(to left, rgb(231, 224, 224) 100%, white 50%) right;
+    transition: 0.4s ease;
  
 }
 

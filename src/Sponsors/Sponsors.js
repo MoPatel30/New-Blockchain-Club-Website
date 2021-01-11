@@ -6,7 +6,7 @@ function Sponsors() {
     return (
         <div className = "sponsors"> 
             <h1><i>Sponsors & Partnerships</i></h1>
-            <p>Insert Sponsors and partnerships</p>
+            <p>Carousel with info</p>
             <br/>
             <br/>
             <br/>
