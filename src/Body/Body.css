@@ -5,12 +5,13 @@ body{
 }
 
 .body-part{
-    background-color: whitesmoke;
+   
     position: relative;
     top: 50%;
     margin-left: 25%;
     margin-right: 25%;
     opacity: 0.9;
+
 }
 
 

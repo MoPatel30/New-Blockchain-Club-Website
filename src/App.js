@@ -4,7 +4,7 @@ import React from 'react';
 //import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./Body/Body"
 import About from "./About/About"
-import Education from "./Education/Education"
+import Education, {Dropdown} from "./Education/Education"
 import Footer from "./Footer/Footer"
 import Sponsors from './Sponsors/Sponsors';
 import Track  from './Crypto/Track';
@@ -22,6 +22,7 @@ function App() {
   const mola = ["Mohammad Larya", "Secretary", "2nd year Computer Science and Mathematics (minor) Student", filler]
   const kevin = ["Kevin Guilluame", "Website Developer", "2nd year Computer Science and Mathematics (minor) Student", filler]
 
+
   return (
     <div className="App">
       <div id = "home-div">
@@ -31,41 +32,36 @@ function App() {
             params={{
               "particles": {
                   "number": {
-                      "value": 80,
+                      "value": 100,
                       "density": {
                           "enable": true,
-                          "value_area": 800
+                          "value_area": 600
                       }
                   },
                   
                   "move": {
-                      "speed": 3,
+                      "speed": 2,
                       
                   }
             }}} className = "particles" />
           </div>
             
-        <nav className = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        
-          <h1 style = {{color: "black"}}><i>Blockchain@LUC</i></h1>
-        
-          <div class="container">
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href = "#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href = "#education">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href = "#about">About</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+      
 
-        </nav>
+        <header>
+          <h1><em>Blockchain@LUC</em></h1>
+          <ul className = "link-style">
+            <li>
+              <a className = "link" href="#"><strong>Home</strong></a>
+            </li>
+            <li>
+              <a className = "link" href="#education"><strong>Education</strong></a>
+              </li>
+            <li>
+              <a className = "link" href="#about"><strong>About</strong></a>
+            </li>
+          </ul>
+        </header>
 
 
         <div className = "crypto-pos">
@@ -81,7 +77,7 @@ function App() {
 
       <section id = "education">
         <div className = "education-pos">
-          <Education />
+          <Dropdown />
         </div>
       </section>
 

@@ -26,21 +26,53 @@ html{
 }
 
 .message-style{
-    background-color: #eaf4fc;
+    background: linear-gradient(to left, rgb(231, 224, 224) 100%, white 50%) right;
+    
     position: relative; 
-    top: 175px;
+    top: 125px;
     margin: auto;
 
-    border-radius: 0px 10px 10px 0px;
-    margin-right: 40%; 
-
+    border-radius: 4px 4px 4px 4px;
+    margin-right: 20%; 
+    margin-left: 20%;
     padding: 30px;
-    opacity: 0.90;
+    opacity: 1;
     text-align: left;
-    font-weight: 500;
+    font-weight: 900;
     z-index: 2;
 
 }
+
+header {
+    z-index: 10;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.link{
+    color: white; 
+    padding: 5px;
+    font-size: 16px;
+
+}
+
+.link-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
 
 .message-style:hover{
     opacity: 1;
@@ -51,7 +83,10 @@ html{
 }
 
 #particles{
-    z-index: -1;
+    position: absolute;
+    top: 200px;
+    
+    z-index: 1;
 }
 
 #home-div{
@@ -79,7 +114,7 @@ html{
     height: fit-content;
     width: 100%;
     position: relative;
-    top: 72px;
+    
  
 }
 .particles{
@@ -92,7 +127,7 @@ html{
 }
 .education-pos{
     position: relative;
-    top: 80px;  
+    top: 15px;  
 }
 
 .footer-pos{
