@@ -1,13 +1,14 @@
 .sponsors{
     background-color: whitesmoke;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .picture{
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 500px;
     border-radius: 10px;
     border: 1px solid black;
 }
@@ -19,6 +20,7 @@
     font-size: 3rem;
     color:black;
     user-select: none;
+    z-index: 10;
 }
 
 .left-arrow{
@@ -28,6 +30,7 @@
     font-size: 3rem;
     color:black;
     user-select: none;
+    z-index: 10;
 }
 
 .slide{
