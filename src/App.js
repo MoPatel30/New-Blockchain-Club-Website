@@ -9,6 +9,7 @@ import Footer from "./Footer/Footer"
 import Sponsors from './Sponsors/Sponsors';
 import Track  from './Crypto/Track';
 import Particles from 'react-particles-js'
+import { SponsorData } from './Sponsors/SponsorData';
 
 
 
@@ -97,7 +98,8 @@ function App() {
       </section>
     
       <div className="sponsors-pos">
-            <Sponsors />
+            <div>Check Out Our Sponsors!!</div>
+            <Sponsors slides={SponsorData}/>
           </div>
 
 

@@ -1,17 +1,45 @@
-import React from 'react'
+// Dont forget npm install 'react-icons'
+import React, {useState} from 'react'
+import {SponsorData} from './SponsorData'
+import {FaArrowAltCircleRight,FaArrowAltCircleLeft } from 'react-icons/fa'
+import './Sponsors.css'
+const Sponsors = ({slides}) => {
+const [current, setCurrent] = useState(0)
+const length = slides.length
+
+const next = () => {
+    setCurrent(current === length-1 ? 0 : current + 1);
+}
+
+const prev = () =>{
+    setCurrent(current === 0 ? length - 1 : current -1);
+}
+console.log(current);
 
 
 
-function Sponsors() {
+    
+    
     return (
-        <div className = "sponsors"> 
-            <h1><i>Sponsors & Partnerships</i></h1>
-            <p>Carousel with info</p>
-            <br/>
-            <br/>
-            <br/>
+        <div className="sponsors">
+            
+            
+            <FaArrowAltCircleLeft className="left-arrow"  onClick = {prev} />
+            <FaArrowAltCircleRight className="right-arrow" onClick = {next} />
+            {SponsorData.map((slide,index) => {
+                return (
+                    <div className = {index === current ? 'slide active' : 'slide'} key = {index}>
+                       {index === current && (
+                       <img src={slide.image} alt = 'Sponsor' className ="picture" />
+                       )} 
+                        
+                    </div>
+                )
+
+            })}
         </div>
     )
 }
 
 export default Sponsors
+
