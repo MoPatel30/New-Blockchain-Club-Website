@@ -21,6 +21,7 @@ body{
     border: 1px solid black;
     border-radius: 1%;
     font-weight: 500;
+    font-size: 1rem;
 }
 
 .profile:hover{

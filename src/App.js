@@ -98,8 +98,7 @@ function App() {
       </section>
     
       <div className="sponsors-pos">
-            <div>Check Out Our Sponsors!!</div>
-            <Sponsors slides={SponsorData}/>
+            <Sponsors slides={SponsorData} />
           </div>
 
 
