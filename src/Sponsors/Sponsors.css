@@ -45,12 +45,6 @@
     transition-duration: 1.5s;
     transform: scale(1.02);
 }
-<<<<<<< HEAD
-.text{
-    border-radius: 10px;
-    width: 500px;
-}
-=======
 
 .sponsor-pos{
     display: flex;
@@ -82,4 +76,3 @@
     align-items: center;
 
 }
->>>>>>> 9802f31f7d50f0c6aa8ba486554afc526a5ae4bb
