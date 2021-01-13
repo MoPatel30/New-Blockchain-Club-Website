@@ -29,7 +29,7 @@ html{
     background: linear-gradient(to left, rgb(231, 224, 224) 100%, white 50%) right;
     background-color: white;
     position: relative; 
-    top: 125px;
+    top: 100px;
     margin: auto;
 
     border-radius: 4px 4px 4px 4px;
@@ -87,7 +87,7 @@ ul{
 
 #particles{
     position: relative;
-    top: 175px;
+    top: 100px;
     margin: auto;   
     z-index: 1;
 }
@@ -129,8 +129,7 @@ ul{
     height: 100vh;
 }
 .education-pos{
-    position: relative;
-    top: 15px;  
+    position: relative; 
 }
 
 .footer-pos{

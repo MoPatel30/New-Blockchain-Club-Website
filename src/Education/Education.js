@@ -39,31 +39,43 @@ export function Dropdown(){
     function showArticles(){
         setArticles(!articles)
         if(articles){
-            setDisplay("articles")
+            setVideos(false)
+            setLinks(false)
+            setDisplay(<Articles />)
         }
-
+        else{
+            setDisplay(null)
+        }
     }
 
     function showVideos(){
         setVideos(!videos)
         if(videos){
-            setDisplay("videos")
+            setArticles(false)
+            setLinks(false)
+            setDisplay(<Videos />)
         }
-
+        else{
+            setDisplay(null)
+        }
     }
 
     function showLinks(){
         setLinks(!links)
         if(links){
-            setDisplay("links")
+            setArticles(false)
+            setVideos(false)
+            setDisplay(<Links />)
         }
-
+        else{
+            setDisplay(null)
+        }
     }
   
 
     return(
         <div>
-            <h1>Education</h1>
+         
             <div class="box-1">
                 <div onClick ={showArticles} class="btn btn-one">
                     <span>Articles</span>
@@ -90,3 +102,35 @@ export function Dropdown(){
     )
 }
    
+
+
+
+function Articles(){
+    return(
+        <div className="articles">
+            <h1>Articles</h1>
+        </div>
+    )
+}
+
+
+
+function Videos(){
+    return(
+        <div className="videos">
+            <h1>Videos</h1>
+        </div>
+    )
+}
+
+
+
+function Links(){
+    return(
+        <div className="links">
+            <h1>Related Links</h1>
+        </div>
+    )
+}
+
+
