@@ -14,7 +14,7 @@ const next = () => {
 const prev = () =>{
     setCurrent(current === 0 ? length - 1 : current -1);
 }
-console.log(current);
+
 
 
 
@@ -32,8 +32,11 @@ console.log(current);
                        {index === current && (
                        <img src={slide.image} alt = 'Sponsor' className ="picture" />
                        )} 
-                        
+                       {index === current && ( <div className="text">{slide.text} </div>)}
+                      
+                      
                     </div>
+                    
                 )
 
             })}
