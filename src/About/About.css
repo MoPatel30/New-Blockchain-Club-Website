@@ -32,7 +32,7 @@ body{
     opacity: 1;
     box-shadow: -1px 10px 20px -6px rgba(0, 0, 0, 0.75);
     font-weight: bold;
-    background: linear-gradient(to left, rgb(255, 245, 245) 100%, rgb(253, 252, 252) 50%) right;
+    background: white;
     transition: 0.4s ease;
  
 }

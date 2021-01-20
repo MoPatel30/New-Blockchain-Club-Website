@@ -23,7 +23,7 @@ function Sponsors(slides){
 
     return (
         <div className="sponsors">
-                     
+
             <FaArrowAltCircleLeft className="left-arrow"  onClick = {prev} />
             <FaArrowAltCircleRight className="right-arrow" onClick = {next} />
             

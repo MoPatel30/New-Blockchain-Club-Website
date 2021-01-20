@@ -25,13 +25,13 @@ html{
 }
 
 .message-style{
-    background: linear-gradient(to left, rgb(231, 224, 224) 100%, white 50%) right;
+    box-shadow: 0 8px 14px 0 rgba(60,60,60, 0.3);
     background-color: white;
     position: relative; 
     top: 100px;
     margin: auto;
-
-    border-radius: 4px 4px 4px 4px;
+    
+    border: 1px solid #ededed;
     margin-right: 20%; 
     margin-left: 20%;
     padding: 30px;
@@ -50,18 +50,35 @@ header {
     color: white;
     text-decoration: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     
 }
 
+em {
+    font-size: 3rem;
+}
+
+
 ul{
     list-style-type: none;
+    z-index: 2;
 }
 li a{
     text-decoration: none;
     color:#fff;
+    z-index: 2;
+}
+
+.rectangle{
+    background-color: white;
+    position: relative;
+    top: -60px;
+    
+    height: 100px;
+  
+    transform: rotate(358deg);
 }
 
 .link{
@@ -94,30 +111,29 @@ li a{
     margin-top: 10px;
 }
 
-
 .message-style:hover{
     opacity: 1;
     box-shadow: -1px 10px 20px -6px rgba(0, 0, 0, 0.75);
     font-weight: bold;
-    background: linear-gradient(to left, rgb(231, 224, 224) 100%, white 50%) right;
+    background: whitesmoke;
     transition: 0.4s ease;
 }
 
 #particles{
     position: relative;
-    top: 100px;
+    top: -200px;
     margin: auto;   
     z-index: 1;
 }
 
 #home-div{
-    height: 100vh; 
+    height: 60vh; 
     background: radial-gradient(ellipse at center, rgb(255, 81, 81) 0%,rgb(99, 0, 0) 100%);
 }
 
 #about{
     height: fit-content;
-    background: #fdfff5;
+    background: #d8d8d8;
 }
 
 .about-pos{
@@ -126,7 +142,7 @@ li a{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    top: 125px;
+   
     margin-bottom: 125px;
 }
 
@@ -145,6 +161,8 @@ li a{
 
 #education{
     height: 100vh;
+    position: relative;
+    top: 350px;
 }
 .education-pos{
     position: relative; 

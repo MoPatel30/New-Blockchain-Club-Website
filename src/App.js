@@ -23,6 +23,11 @@ function App() {
   const mola = ["Mohammad Larya", "Secretary", "2nd year Computer Science and Mathematics (minor) Student", filler]
   const kevin = ["Kevin Guilluame", "Website Developer", "2nd year Computer Science and Mathematics (minor) Student", filler]
 
+  /*
+          <div className = "education-pos">
+          <Dropdown />
+        </div>
+  */
 
   return (
     <div className="App">
@@ -36,7 +41,7 @@ function App() {
                       "value": 100,
                       "density": {
                           "enable": true,
-                          "value_area": 600
+                          "value_area": 900
                       }
                   },
                   
@@ -77,9 +82,10 @@ function App() {
 
 
       <section id = "education">
+        <p>Going to try something new with this section. dont like how it is rn</p>
         <div className = "education-pos">
-          <Dropdown />
-        </div>
+            <Dropdown />
+          </div>
       </section>
 
 
@@ -97,9 +103,9 @@ function App() {
         </div>
       </section>
     
-      <div className="sponsors-pos">
-            <Sponsors slides={SponsorData} />
-          </div>
+      <div className="sponsors-pos">  
+        <Sponsors slides={SponsorData} />
+      </div>
 
 
       <div className="footer-pos">

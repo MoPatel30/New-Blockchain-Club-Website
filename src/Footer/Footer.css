@@ -1,8 +1,19 @@
 .footer{
-    background-color: #f3f2ed; 
+    background-color: #d8d8d8; 
 }
 
+h1{
+    font-size: 1.5rem;
+}
 
+.socials{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.socials a{
+    color:black;
+}
 .footer-routes{
     font-size: 1.25rem;
     color: black;

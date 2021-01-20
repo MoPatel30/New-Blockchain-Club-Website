@@ -10,6 +10,30 @@ body{
     opacity: 0.90; 
     
 }
+.videos{
+    height:600px;
+}
+.video-container{
+    position: relative;
+    width:100%;
+    padding-bottom: 56.25%;
+    height: 0px;
+}
+.video-container iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 60%;
+    height:50%;
+}
+.youtube-player{
+    border: 3px solid red;
+    height: 315px;
+    width: 560px;
+    padding: 0px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    }
 
 
 
