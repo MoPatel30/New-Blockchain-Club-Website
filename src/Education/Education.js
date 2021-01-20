@@ -119,6 +119,10 @@ function Videos(){
     return(
         <div className="videos">
             <h1>Videos</h1>
+
+            <iframe width="560" height="315" class="youtube-player" src="https://www.youtube.com/embed/SSo_EIwHSd4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" class="youtube-player" src="https://www.youtube.com/embed/L-Qhv8kLESY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
         </div>
     )
 }

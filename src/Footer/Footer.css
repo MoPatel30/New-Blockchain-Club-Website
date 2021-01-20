@@ -2,7 +2,13 @@
     background-color: #f3f2ed; 
 }
 
+.socials{
+    font-size: 1.5rem;
+}
 
+.socials a{
+    color:black;
+}
 .footer-routes{
     font-size: 1.25rem;
     color: black;
