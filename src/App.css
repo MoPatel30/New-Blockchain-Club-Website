@@ -10,8 +10,7 @@ html{
 }
 
 .App-header {
-    background: radial-gradient(ellipse at center, rgba(2,162,239,1) 0%,rgba(3,106,179,1) 100%);
-    
+    background: radial-gradient(ellipse at center, rgba(2,162,239,1) 0%,rgba(3,106,179,1) 100%);   
     min-height: 100vh;
     display: flex;
     flex-direction: column;
