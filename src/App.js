@@ -4,12 +4,13 @@ import React from 'react';
 //import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./Body/Body"
 import About from "./About/About"
-import Education, {Dropdown} from "./Education/Education"
+import Education, {Dropdown, EducationTwo} from "./Education/Education"
 import Footer from "./Footer/Footer"
 import Sponsors from './Sponsors/Sponsors';
 import Track  from './Crypto/Track';
 import Particles from 'react-particles-js'
 import { SponsorData } from './Sponsors/SponsorData';
+import Flipcard from "./Flipcard/Flipcard"
 
 
 
@@ -23,11 +24,7 @@ function App() {
   const mola = ["Mohammad Larya", "Secretary", "2nd year Computer Science and Mathematics (minor) Student", filler]
   const kevin = ["Kevin Guilluame", "Website Developer", "2nd year Computer Science and Mathematics (minor) Student", filler]
 
-  /*
-          <div className = "education-pos">
-          <Dropdown />
-        </div>
-  */
+
 
   return (
     <div className="App">
@@ -51,8 +48,7 @@ function App() {
                   }
             }}} className = "particles" />
           </div>
-            
-      
+               
 
         <header>
           <h1><em>Blockchain@LUC</em></h1>
@@ -69,39 +65,33 @@ function App() {
           </ul>
         </header>
 
-
         <div className = "crypto-pos">
           <Track />
         </div>
 
         <div className = "message-style">
-        <Body />
-      </div>
+          <Body />
+        </div>
 
       </div>
 
 
       <section id = "education">
-        <p>Going to try something new with this section. dont like how it is rn</p>
-        <div className = "education-pos">
-            <Dropdown />
-          </div>
+        <EducationTwo />
       </section>
 
 
       <section id = "about">
-
         <div className = "about-pos">
- 
           <About name = {adam[0]} title = {adam[1]} schooling = {adam[2]} description = {adam[3]} />
           <About name = {jaser[0]} title = {jaser[1]} schooling = {jaser[2]} description = {jaser[3]} />
           <About name = {gerardo[0]} title = {gerardo[1]} schooling = {gerardo[2]} description = {gerardo[3]} />
           <About name = {mopat[0]} title = {mopat[1]} schooling = {mopat[2]} description = {mopat[3]} />
           <About name = {mola[0]} title = {mola[1]} schooling = {mola[2]} description = {mola[3]} />
           <About name = {kevin[0]} title = {kevin[1]} schooling = {kevin[2]} description = {kevin[3]} />
-
         </div>
       </section>
+    
     
       <div className="sponsors-pos">  
         <Sponsors slides={SponsorData} />

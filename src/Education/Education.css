@@ -118,3 +118,14 @@ div[class*=box] {
     transform: scale(0.1, 1);
 }
 
+
+
+.cards-position{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

@@ -134,6 +134,8 @@ li a{
 #about{
     height: fit-content;
     background: #d8d8d8;
+    margin-top: 100px;
+    
 }
 
 .about-pos{
@@ -142,7 +144,7 @@ li a{
     justify-content: space-around;
     align-items: center;
     position: relative;
-   
+  
     margin-bottom: 125px;
 }
 

@@ -1,5 +1,6 @@
 import { render } from '@testing-library/react'
 import React, {useState} from 'react'
+import Flipcard from '../Flipcard/Flipcard'
 import "./Education.css"
 
 
@@ -133,6 +134,23 @@ function Links(){
     return(
         <div className="links">
             <h1>Related Links</h1>
+        </div>
+    )
+}
+
+
+
+export function EducationTwo(){
+
+
+    return(
+        <div className = "cards-position">
+
+            <Flipcard name = "Articles" />
+            <Flipcard name = "Videos" />
+            <Flipcard name = "Related Link" />
+            <Flipcard name = "Event Information" />
+
         </div>
     )
 }
