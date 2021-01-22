@@ -5,13 +5,14 @@ body{
 }
 
 .body-part{
-   
     position: relative;
     top: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+
     opacity: 0.9;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
