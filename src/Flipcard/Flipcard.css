@@ -33,13 +33,12 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #d8d8d8;
-    color: black;
+    background: radial-gradient(ellipse at center, rgb(255, 81, 81) 0%,rgb(99, 0, 0) 100%);;
+    color: white;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background: radial-gradient(ellipse at center, rgb(255, 81, 81) 0%,rgb(99, 0, 0) 100%);;
-    color: white;
+    background-color: #d8d8d8;
     transform: rotateY(180deg);
   }

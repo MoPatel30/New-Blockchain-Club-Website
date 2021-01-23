@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Footer.css"
 import {IoLogoTwitter,IoLogoMedium} from "react-icons/io5";
+import Contact from "../Contact/Contact"
+
 
 function Footer() {
     return (
@@ -12,10 +14,20 @@ function Footer() {
                 <a href='#'><IoLogoMedium/></a>
             </div>
             
+            <Contact />
+
             <div>
-                <a href = "#" className = "footer-routes">Home</a>
-                <a href = "#education" className = "footer-routes">Education</a>
-                <a href = "#about" className = "footer-routes">About</a>
+                <ul className = "link-style">
+                    <li>
+                        <a className = "link" href="#"><strong>Home</strong></a>
+                    </li>
+                    <li>
+                        <a className = "link" href="#education"><strong>Education</strong></a>
+                    </li>
+                    <li>
+                        <a className = "link" href="#about"><strong>About</strong></a>
+                    </li>
+                </ul>
             </div>
 
         </div>

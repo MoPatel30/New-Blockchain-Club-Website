@@ -2,6 +2,10 @@ import { render } from '@testing-library/react'
 import React, {useState} from 'react'
 import Flipcard from '../Flipcard/Flipcard'
 import "./Education.css"
+import articles from "../imgs/articles.png"
+import events from "../imgs/events.png"
+import information from "../imgs/information.png"
+import videos from "../imgs/videos.png"
 
 
 // Class component for practice :)
@@ -146,10 +150,10 @@ export function EducationTwo(){
     return(
         <div className = "cards-position">
 
-            <Flipcard name = "Articles" />
-            <Flipcard name = "Videos" />
-            <Flipcard name = "Related Link" />
-            <Flipcard name = "Event Information" />
+            <Flipcard name = "Articles" image = {articles} />
+            <Flipcard name = "Videos" image = {videos} />
+            <Flipcard name = "Related Link" image = {information} />
+            <Flipcard name = "Event Information" image = {events} />
 
         </div>
     )

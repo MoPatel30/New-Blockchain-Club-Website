@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.contact {
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+}
+
+input {
+    margin-bottom: 1.5rem;
+}
+
+textarea {
+    margin-bottom: 1.5rem;
+    min-width: 225px;
+    min-height: 125px;
+}

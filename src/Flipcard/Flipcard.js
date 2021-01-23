@@ -10,7 +10,7 @@ function Flipcard(props) {
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
                         <h1>{props.name}</h1>
-                        <img src="img_avatar.png" alt="Avatar" style= {{width:"300px", height:"300px"}} />
+                        <img src={props.image} alt="section image" style= {{marginTop: "25px", width:"150px", height:"150px"}} />
                     </div>
                     <div className="flip-card-back">
                         <a href = "#" style = {{cursor: "pointer"}}>Link</a>

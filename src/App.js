@@ -54,13 +54,13 @@ function App() {
           <h1><em>Blockchain@LUC</em></h1>
           <ul className = "link-style">
             <li>
-              <a className = "link" href="#"><strong>Home</strong></a>
+              <a className = "link" href="#" style = {{color: "white"}}><strong>Home</strong></a>
             </li>
             <li>
-              <a className = "link" href="#education"><strong>Education</strong></a>
+              <a className = "link" href="#education" style = {{color: "white"}}><strong>Education</strong></a>
               </li>
             <li>
-              <a className = "link" href="#about"><strong>About</strong></a>
+              <a className = "link" href="#about" style = {{color: "white"}}><strong>About</strong></a>
             </li>
           </ul>
         </header>
@@ -92,7 +92,7 @@ function App() {
         </div>
       </section>
     
-    
+
       <div className="sponsors-pos">  
         <Sponsors slides={SponsorData} />
       </div>

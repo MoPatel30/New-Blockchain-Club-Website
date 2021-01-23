@@ -1,5 +1,5 @@
 // Dont forget npm install 'react-icons'
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import {SponsorData} from './SponsorData'
 import {FaArrowAltCircleRight,FaArrowAltCircleLeft } from 'react-icons/fa'
 import './Sponsors.css'
@@ -8,9 +8,7 @@ import './Sponsors.css'
 function Sponsors(slides){
     const [current, setCurrent] = useState(0)
     const length = Object.keys(SponsorData).length
-    
-    
-
+      
 
     const next = () => {
         setCurrent(current === length-1 ? 0 : current + 1);
