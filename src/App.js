@@ -3,7 +3,7 @@ import React from 'react';
 //import Bootstrap from "bootstrap"
 //import "bootstrap/dist/css/bootstrap.min.css";
 import Body from "./Body/Body"
-import About from "./About/About"
+import About, {AboutTwo} from "./About/About"
 import Education, {Dropdown, EducationTwo} from "./Education/Education"
 import Footer from "./Footer/Footer"
 import Sponsors from './Sponsors/Sponsors';
@@ -83,20 +83,13 @@ function App() {
 
       <section id = "about">
         <div className = "about-pos">
-          <About name = {adam[0]} title = {adam[1]} schooling = {adam[2]} description = {adam[3]} />
-          <About name = {jaser[0]} title = {jaser[1]} schooling = {jaser[2]} description = {jaser[3]} />
-          <About name = {gerardo[0]} title = {gerardo[1]} schooling = {gerardo[2]} description = {gerardo[3]} />
-          <About name = {mopat[0]} title = {mopat[1]} schooling = {mopat[2]} description = {mopat[3]} />
-          <About name = {mola[0]} title = {mola[1]} schooling = {mola[2]} description = {mola[3]} />
-          <About name = {kevin[0]} title = {kevin[1]} schooling = {kevin[2]} description = {kevin[3]} />
+          <AboutTwo />
+          <div className="sponsors-pos">  
+            <Sponsors slides={SponsorData} />
+          </div>
         </div>
       </section>
     
-
-      <div className="sponsors-pos">  
-        <Sponsors slides={SponsorData} />
-      </div>
-
 
       <div className="footer-pos">
         <Footer />

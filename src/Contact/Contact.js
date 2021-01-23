@@ -16,7 +16,7 @@ function Contact() {
 
                 <textarea></textarea>
 
-                <button type = "submit">Send</button>
+                <button className = "submit-btn" type = "submit">Send</button>
             </form>
 
 

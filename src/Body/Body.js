@@ -10,6 +10,9 @@ function Body() {
                 <h2 id = "welcome-tag" style = {{fontWeight: "900"}}><i>Welcome to Blockchain@LUC</i></h2>
                 <p style = {{fontWeight: "900"}}>Our mission is to spread awareness of blockchain technology, its history, its continuing impact, and relevant projects. In maintaining this focus, we strive to educate members with a quality understanding of what this space offers, creating leaders who can use their knowledge to seamlessly adapt to the inevitable transition to a fully digitized world as the Information Age progresses.</p>
             </div>
+
+            <div class="vl" style = {{borderLeft: "1px solid grey", height: "400px", position: "relative", left: "75px"}}></div>
+
             <img src = {logo} alt = "club logo" style = {{width: "600px", height: "400px"}} />
         </div>
     )
