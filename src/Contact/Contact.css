@@ -1,43 +1,86 @@
-form {
+
+.contact-us{
+    position: relative;
+    left: 30%;
+    width: 100%;
+    padding: 0 20px;
+    height: 50vh;
+}
+.title-contact{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 0 10px;
+
+    color: white;
+}
+
+.contact-form {
+    background: rgba(0,0,0,0.8);
+    max-width: 550px;
+    padding: 30px;
+    border-radius: 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 0 0 10px;
+   
+}
+
+.inputs{
+    display: flex;
     flex-direction: column;
-    margin: auto;
+    margin-right: 4%;
+
+}
+.inputs,
+.message{
+    width: 48%;
 }
 
-
-.contact {
-    border: 1px solid grey;
-    border-radius: 3px;
-    width: fit-content;
-    padding: 20px;
-    margin: auto;
-    margin-top: 2.5rem;
-    margin-bottom: 3.5rem;
+.inputs .input,
+.message textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 100%;
 }
 
-input {
-    margin-bottom: 1.5rem;
+.message textarea{
+    height: 212px;
 }
 
-textarea {
-    margin-bottom: 1.5rem;
-    min-width: 225px;
-    min-height: 125px;
+::-webkit-input-placeholder{
+    color: white;
 }
+
+::-moz-input-placeholder{
+    color: white;
+}
+::-ms-input-placeholder{
+    color:white;
+}
+
 
 
 .submit-btn{
-    border: 1px solid black;
-    width: 150px;
+    text-align: center;
     background-color: rgb(170, 15, 15);
-    color: white;
-    font-weight: 900;
+    padding: 15px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 .submit-btn:hover{
     border-radius: 10px;
     transition: 0.4s ease;
     font-weight: 900;
+}
+
+@media screen and (max-width: 600px){
+    .contact-form{
+        flex-direction: column;
+    }
 }

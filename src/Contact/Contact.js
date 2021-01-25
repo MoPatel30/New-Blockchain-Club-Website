@@ -3,24 +3,21 @@ import "./Contact.css"
 
 
 function Contact() {
-    return (
-        <div className = "contact">
-            <h1>Contact Us</h1>
-            <p style = {{fontWeight: "900"}}>Reach out to us with any questions or concerns using the form below!</p>
-            
-            <form>
-                <input type = "text"></input>
-                <input type = "text"></input>
-
-                <input type = "text"></input>
-
-                <textarea></textarea>
-
-                <button className = "submit-btn" type = "submit">Send</button>
-            </form>
-
-
-        </div>
+    return ( 
+            <div className="contact-us">
+                <div className="title-contact">Contact Us</div>
+                <div className = "contact-form">
+                    <div className="inputs">
+                        <input type = "text" class= "input" placeholder= "Name"></input>
+                        <input type = "text" class= "input" placeholder = "Email"></input>
+                        <input type = "text" class= "input" placeholder = "Phone Number? Idk what else"></input>
+                    </div>
+                <div className = "message">
+                    <textarea placeholder="How can we help?"></textarea>
+                    <div className = "submit-btn" type = "submit">Send</div>
+                </div>
+                </div>
+            </div>
     )
 }
 
