@@ -152,7 +152,7 @@ export function EducationTwo(){
 
             <Flipcard name = "Articles" image = {articles} />
             <Flipcard name = "Videos" image = {videos} />
-            <Flipcard name = "Related Link" image = {information} />
+            <Flipcard name = "Related Links" image = {information} />
             <Flipcard name = "Event Information" image = {events} />
 
         </div>

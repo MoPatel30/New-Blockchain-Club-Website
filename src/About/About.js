@@ -125,7 +125,7 @@ export function AboutTwo(props){
                     </div>
                 </div>
 
-            </div>              
+            </div>             
         </div>
     )
 }

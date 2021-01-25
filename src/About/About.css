@@ -52,7 +52,7 @@ body{
 
 
 
-  
+
   .container {
     margin: auto;
     position: absolute;
@@ -60,7 +60,7 @@ body{
     width: 800px;
     top: 60px;
     left: calc(50% - 375px);
-    display: flex;
+    display: flex;    
   }
   
   .card {

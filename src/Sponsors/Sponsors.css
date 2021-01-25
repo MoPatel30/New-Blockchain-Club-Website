@@ -1,5 +1,5 @@
 .sponsors{
-    background-color: #d8d8d8;
+ 
     height: 45vh;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
 .right-arrow{
     position: absolute;
     top: 50%;
-    right: 32px;
+    right: 170px;
     font-size: 3rem;
     color:black;
     user-select: none;
@@ -27,7 +27,7 @@
 .left-arrow{
     position: absolute;
     top: 50%;
-    left: 32px;
+    left: 170px;
     font-size: 3rem;
     color:black;
     user-select: none;

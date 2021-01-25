@@ -22,6 +22,7 @@ html{
 
 .App {
     text-align: center;
+    background-color: white;
 }
 
 .message-style{
@@ -134,19 +135,24 @@ li a{
 
 #about{
     height: fit-content;
-    background: #d8d8d8;
+
     margin-top: 100px;
     
 }
 
-.about-pos{
+.about-pos{  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     position: relative;
+    margin-top: 350px;
+    margin-bottom: 90px;
+}
+
+.about-background{
+    position: relative;
   
-    margin-bottom: 125px;
 }
 
 .crypto-pos{
@@ -166,9 +172,12 @@ li a{
     height: 100vh;
     position: relative;
     top: 350px;
+    margin: auto;
 }
+
 .education-pos{
     position: relative; 
+    top: 150px;
 }
 
 .footer-pos{
@@ -178,13 +187,12 @@ li a{
     top: 200px;  
 }
 
-.sponsors-pos{
-    background-color: #f3f2ed;
+.sponsors-pos{  
     position: relative;
     top: 325px;
     width: 100%;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     opacity: 0.9;
 
 }
