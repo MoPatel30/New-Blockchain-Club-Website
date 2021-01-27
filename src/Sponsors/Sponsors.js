@@ -33,8 +33,8 @@ function Sponsors(slides){
                            <div className = "sponsor-pos">  
                                 <img src={slide.image} alt = 'Sponsor' className ="picture" />
                                 <div className="sponsor-info">
-                                    <h2>{slide.name}</h2>
-                                    <p>{slide.information}</p>
+                                    <h2 className = "sponsor-title">{slide.name}</h2>
+                                    <p className = "sponsor-desc">{slide.information}</p>
                                 </div>
                            </div>   
                        )}     

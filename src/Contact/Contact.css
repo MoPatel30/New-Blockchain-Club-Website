@@ -85,8 +85,13 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 786px){
     .contact-form{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+
+
 }

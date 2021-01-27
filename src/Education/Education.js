@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react'
 import React, {useState} from 'react'
 import Flipcard from '../Flipcard/Flipcard'
 import "./Education.css"

@@ -134,9 +134,14 @@ li a{
 }
 
 #about{
-    height: fit-content;
+    height: 100vh;
+    margin: auto;
+    margin-top: 400px;
+    box-shadow: 0 8px 14px 0 rgba(60,60,60, 0.3);
+    border: 1px solid #ededed;
+    background-color: #f5f5f5;
+    width: 80vw;
 
-    margin-top: 100px;
     
 }
 
@@ -146,13 +151,9 @@ li a{
     justify-content: space-around;
     align-items: center;
     position: relative;
-    margin-top: 350px;
-    margin-bottom: 90px;
-}
+    margin-top: 40px;
+    margin-bottom: 50px;
 
-.about-background{
-    position: relative;
-  
 }
 
 .crypto-pos{
@@ -190,7 +191,8 @@ li a{
 .sponsors-pos{  
     position: relative;
     top: 325px;
-    width: 100%;
+    width: 120%;
+    right: 125px;
     margin-top: 5%;
     margin-bottom: 15%;
     opacity: 0.9;
@@ -200,12 +202,25 @@ li a{
 
 
 @media(max-width: 767px){
-    .message-style{
-        margin-right: 15%;
+    .message-style{   
         border-radius: 0px 5px 5px 0px;
-        top: 275px;
-    
+        top: 75px;
+        margin-right: 10%; 
+        margin-left: 10%;  
     }
+
+    header{
+        flex-direction: column;
+    }
+
+    .education-pos{
+        top: 225px;
+    }
+
+    .about-pos{
+        top: 800px;
+    }
+
 
 
 }

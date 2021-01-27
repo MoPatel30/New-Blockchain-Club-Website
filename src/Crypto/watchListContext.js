@@ -15,7 +15,7 @@ export const WatchListContextProvider = (props)=> {
     );
 
     return (
-        <WatchListContext.Provider value={{ watchList}}>
+        <WatchListContext.Provider value={{watchList}}>
             {props.children}
         </WatchListContext.Provider>
     );
