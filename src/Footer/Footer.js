@@ -1,18 +1,13 @@
 import React from 'react'
 import "./Footer.css"
-import {IoLogoTwitter,IoLogoMedium} from "react-icons/io5";
+//import {IoLogoTwitter,IoLogoMedium} from "react-icons/io5";
 import Contact from "../Contact/Contact"
 
 
 function Footer() {
     return (
         <div className = "footer">
-            <h1><i>Check Out our Socials!</i></h1>
             
-            <div className="socials">
-                <a href='#'><IoLogoTwitter/></a>
-                <a href='#'><IoLogoMedium/></a>
-            </div>
             
             <Contact />
 

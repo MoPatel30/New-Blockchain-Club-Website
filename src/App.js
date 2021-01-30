@@ -66,23 +66,23 @@ function App() {
       </div>
 
 
-      <section id = "education">
+      <div id = "education">
         <div className="education-pos">
           <EducationTwo />          
         </div>
-      </section>
+      </div>
 
 
-      <section id = "about">
-        <div className="about-background">
+      <div id = "about">
+        
           <div className="about-pos">
             <AboutTwo />
           </div>
-        </div>
+        
         <div className="sponsors-pos">
           <Sponsors slides={SponsorData} />
         </div>      
-      </section>
+      </div>
     
 
       <div className="footer-pos">
