@@ -43,6 +43,12 @@ body{
         max-width: 100%;
 
     }
+    .container{
+      flex-direction: column;
+    }
+    .circle{
+      display: none;
+    }
 }
 
 
@@ -57,9 +63,9 @@ body{
     margin: auto;
     position: absolute;
     height: 300px;
-    width: 800px;
+    width: 80%;
     top: 60px;
-    left: calc(50% - 375px);
+    left: 15%;
     display: flex;    
   }
   

@@ -208,6 +208,9 @@ li a{
         margin-right: 10%; 
         margin-left: 10%;  
     }
+    #about{
+        height: 265vh;
+    }
 
     header{
         flex-direction: column;

@@ -81,9 +81,12 @@
 @media(max-width: 767px){
     .sponsors{
         position: relative;
-        left: 100px;
+        left: 25%;
+        top: 100vh;
         flex-direction: column;
         width: fit-content;
+        
+        
     }
 
     .sponsor-info{
