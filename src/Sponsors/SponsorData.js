@@ -23,7 +23,7 @@ export const SponsorData = [
     {
         name: "Numerade",
         image: 
-        'https://thelearningcounsel.com/sites/default/files/styles/large/public/sites/default/files/styles/large/public/field/image/numerade-1.jpg?itok=8z2MKRkt',
+        'https://www.numerade.com/static/img/gradient-version-2.png',
         information: "Numerade is a venture-backed, high-growth education technology startup based in Los Angeles. They are singularly focused on creating exceptional video and interactive content experiences for education making the knowledge and skills of world class educators widely accessible and affordable to student audiences of all backgrounds. Their mission is to close the educational opportunity gap by unlocking and democratizing access to extraordinary educators and the content they have to offer."
     }
 

@@ -209,7 +209,8 @@ li a{
         margin-left: 10%;  
     }
     #about{
-        height: 265vh;
+        height: 235vh;
+        
     }
 
     header{
@@ -221,7 +222,7 @@ li a{
     }
 
     .about-pos{
-        top: 800px;
+        top: 575px;
     }
 
 
