@@ -37,19 +37,7 @@ body{
  
 }
 
-@media(max-width: 767px){
-    .profile{
-        min-width: 100%;
-        max-width: 100%;
 
-    }
-    .container{
-      flex-direction: column;
-    }
-    .circle{
-      display: none;
-    }
-}
 
 
 
@@ -158,3 +146,20 @@ body{
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
   }
+  @media(max-width: 767px){
+    .profile{
+        min-width: 100%;
+        max-width: 100%;
+
+    }
+    .container{
+      flex-direction: column;
+    }
+
+    .card{
+      width: 235px;
+    }
+    .circle{
+      display: none;
+    }
+}
