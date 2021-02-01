@@ -41,7 +41,7 @@ function App() {
                
 
         <header>
-          <h1><em>Blockchain@LUC</em></h1>
+          <h1><em id = "header-title">Blockchain@LUC</em></h1>
           <ul className = "link-style">
             <li>
               <a className = "link" href="#" style = {{color: "white"}}><strong>Home</strong></a>

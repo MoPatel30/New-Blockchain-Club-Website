@@ -7,7 +7,7 @@ function Contact() {
         <div className="contact-us">
             <div className = "contact-form">
                 <div className="inputs">
-                    <h1 style = {{color:  "white"}}><strong>Contact Us</strong></h1>
+                    <h1 id = "contact-name" style = {{color:  "white"}}><strong>Contact</strong></h1>
                     <input type = "text" class= "input" placeholder= "Name"></input>
                     <input type = "text" class= "input" placeholder = "Email"></input>
                     <input type = "text" class= "input" placeholder = "Subject"></input>

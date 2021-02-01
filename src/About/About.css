@@ -111,8 +111,8 @@ body{
     z-index: 3;
     width: 0px;
     height: 100%;
-    background: rgb(0,154,217);
-    background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+    background: whitesmoke;
+    background: linear-gradient(90deg, whitesmoke 0%, rgb(219, 143, 143) 65%, rgb(255, 0, 0) 100%);
     transition: 0.6s ease-out;
   }
   
@@ -144,27 +144,37 @@ body{
     stroke-dashoffset: 100;
     transition: 0.6s ease-out;
   }
-  @media(max-width: 767px){
-    .profile{
-        min-width: 100%;
-        max-width: 100%;
 
-    }
-    .container{
-      flex-direction: column;
-      left: 25%;
-      top: 100%;
-    }
-    
-    .bar{
-      top:110px;
-      left:18%;
-    }
 
-    .card{
-      width: 235px;
-    }
-    .circle{
-      display: none;
-    }
+@media(max-width: 767px){
+  .profile{
+      min-width: 100%;
+      max-width: 100%;
+  }
+
+  .container{
+    flex-direction: column;
+    left: 25%;
+    top: 100%;
+  }
+  
+  .bar{
+    top:110px;
+    left:18%;
+  }
+
+  .card{
+    width: 235px;
+    box-shadow: .125rem 0.25rem 0.25rem 0.25rem grey;
+  }
+
+  .card:hover ~ .card {
+    left: 0px;
+  }
+
+  .circle{
+    display: none;
+  }
+
 }
+

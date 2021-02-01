@@ -85,6 +85,15 @@
 }
 
 @media screen and (max-width: 786px){
+
+    .contact-us{
+        padding: 2rem;
+    }
+
+    #contact-name{
+        font-size: 1.25rem;
+    }
+
     .contact-form{
         flex-direction: column;
         justify-content: center;

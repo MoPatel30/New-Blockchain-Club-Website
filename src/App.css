@@ -209,9 +209,9 @@ li a{
         margin-left: 10%;  
     }
     #about{
-        height: 290vh;
-        margin-top: 525px;
-        
+        height: 210vh;
+
+        margin-top: 1050px;      
     }
 
     header{
@@ -223,9 +223,23 @@ li a{
     }
 
     .about-pos{
-        top: 575px;
+        top: 0px;
     }
 
+    .sponsors-pos{
+        top: 2%;
+    }
+
+    #header-title{
+        font-size: 2.25rem;
+    }
+
+}
 
 
+
+@media(max-width: 376px){
+   .about-pos{
+        left: -3%;
+    }
 }
