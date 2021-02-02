@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaExternalLinkSquareAlt } from 'react-icons/fa'
 import "./Flipcard.css"
 
 
@@ -13,10 +14,15 @@ function Flipcard(props) {
                         <img src={props.image} alt="section image" style= {{marginTop: "25px", width:"150px", height:"150px"}} />
                     </div>
                     <div className="flip-card-back">
-                        <a href = "#" style = {{cursor: "pointer"}}>Link</a>
-                        <h1>Mo Patel</h1>
-                        <p>Student </p>
-                        <p>Full-time Umair hater</p>
+                        
+                        <h3>{props.name}</h3>
+
+                        {
+                            props.links.map((link) => (
+                                <p>{link}</p>
+                            ))
+                        }
+
                     </div>
                 </div>
             </div>

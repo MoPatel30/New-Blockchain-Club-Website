@@ -52,7 +52,7 @@ body{
     position: absolute;
     height: 300px;
     width: 80%;
-    top: 60px;
+    top: 100px;
     left: 10%;
     display: flex;    
   }
@@ -63,8 +63,8 @@ body{
     width: 200px;
     background-color: whitesmoke;
     border-radius: 10px;
-    box-shadow: 1rem 0.5rem 3rem grey;
-    margin-left: -50px; 
+    box-shadow: 0.5rem 0.5rem 1rem grey;
+    margin-left: -10px; 
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
@@ -93,8 +93,8 @@ body{
   
   .bar {
     position: absolute;
-    top: 100px;
-    left: 10px;
+    top: 265px;
+    left: 5px;
     height: 5px;
     width: 150px;
   }
@@ -129,7 +129,7 @@ body{
   }
   
   .stroke {
-    stroke: white;
+    stroke: red;
     stroke-dasharray: 360;
     stroke-dashoffset: 360;
     transition: 0.6s ease-out;
@@ -146,6 +146,7 @@ body{
   }
 
 
+
 @media(max-width: 767px){
   .profile{
       min-width: 100%;
@@ -154,16 +155,17 @@ body{
 
   .container{
     flex-direction: column;
-    left: 25%;
-    top: 100%;
+    left: 11%;
+    top: 130%;
   }
   
   .bar{
-    top:110px;
+    top: 105px;
     left:18%;
   }
 
   .card{
+    min-height: 120px;
     width: 235px;
     box-shadow: .125rem 0.25rem 0.25rem 0.25rem grey;
   }

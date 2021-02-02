@@ -39,6 +39,11 @@ export function Dropdown(){
     const [videos, setVideos] = useState(false)
     const [links, setLinks] = useState(false)
 
+    const eventInfo = ["Stay tuned  for more information regarding future events and meetings!"]
+    const articleLinks = ["test", "test"]
+    const relatedLinks = ["hello", "g"]
+    const videoLinks = ["gab", "btra"]
+    
 
     function showArticles(){
         setArticles(!articles)
@@ -145,14 +150,29 @@ function Links(){
 
 export function EducationTwo(){
 
+    const eventInfo = ["Stay tuned  for more information regarding future events and meetings!"]
+    
+    const articleLinks = [
+        <p><a href="https://blog.lopp.net/bitcoin-timestamp-security/"  id="article-link-style">Bitcoin Timestamp Security </a></p>,
+        <p><a href="https://nakamoto.com/what-are-the-key-properties-of-bitcoin/" id="article-link-style"> What are the Key Properties of Bitcoin? </a></p>,
+        <p><a href="https://blog.lopp.net/who-controls-bitcoin-core-/" id="article-link-style"> Who Controls Bitcoin Core? </a></p>
+    ]
+
+    const relatedLinks = ["More resources will be added here"]
+    
+    const videoLinks = [ 
+        <iframe title = "btc video" id = "btc-video" src = "https://www.youtube.com/embed/SSo_EIwHSd4" style = {{ width: "200px", height: "100px", frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>,
+        <iframe title = "blockchain video" id = "blockchain-video" src = "https://www.youtube.com/embed/L-Qhv8kLESY" style = {{ width: "200px", height: "100px", frameborder:"0", allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture, allowfullscreen"}}></iframe>
+    ]
+
 
     return(
         <div className = "cards-position">
 
-            <Flipcard name = "Articles" image = {articles} />
-            <Flipcard name = "Videos" image = {videos} />
-            <Flipcard name = "Related Links" image = {information} />
-            <Flipcard name = "Event Information" image = {events} />
+            <Flipcard name = "Articles" image = {articles} links = {articleLinks} />
+            <Flipcard name = "Videos" image = {videos} links = {videoLinks} />
+            <Flipcard name = "Related Links" image = {information} links = {relatedLinks} />
+            <Flipcard name = "Event Information" image = {events} links = {eventInfo} />
 
         </div>
     )

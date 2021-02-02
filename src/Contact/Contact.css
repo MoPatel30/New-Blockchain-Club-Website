@@ -2,7 +2,7 @@
 .contact-us{
     position: relative;
     width: 100%;
-    padding: 0 20px;
+    padding: 40px;
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -10,11 +10,8 @@
     margin: auto;
 }
 
-.title-contact{
-    position: absolute;
+#contact-name{
     font-size: 1.5rem;
-    padding: 0 10px;
-
     color: white;
 }
 

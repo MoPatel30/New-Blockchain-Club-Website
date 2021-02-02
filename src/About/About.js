@@ -22,12 +22,12 @@ export default About
 
 export function AboutTwo(props){
     const filler = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
-    const adam = ["Adam Patel", "Founder & President", "3rd year Finance and Computer Science (minor) Student", filler]
-    const jaser = ["Jaser Siddiqui", "Vice President", "3rd year Neuroscience and Psychology Student",  filler]
-    const gerardo = ["Gerardo Garcia", "Treasurer", "4th year Finance and Accounting Student",  filler]
-    const mopat = ["Mohammed Patel","Lead Website Developer", "2nd year Computer Science and Mathematics (minor) Student", filler]
-    const mola = ["Mohammad Larya", "Secretary", "2nd year Computer Science and Mathematics (minor) Student", filler]
-    const kevin = ["Kevin Guilluame", "Website Developer", "2nd year Computer Science and Mathematics (minor) Student", filler]
+    const adam = ["Adam Patel", "Founder & President", "3rd year Finance & Computer Science (m)", filler]
+    const jaser = ["Jaser Siddiqui", "Vice President", "3rd year Neuroscience & Psychology",  filler]
+    const gerardo = ["Gerardo Garcia", "Treasurer", "4th year Finance & Accounting",  filler]
+    const mopat = ["Mohammed Patel","Lead Website Developer", "2nd year Computer Science & Math (minor)", filler]
+    const mola = ["Mohammad Larya", "Secretary", "2nd year Computer Science & Math (minor)", filler]
+    const kevin = ["Kevin Guilluame", "Website Developer", "2nd year Computer Science & Math (minor)", filler]
   
   
     return(
@@ -58,7 +58,7 @@ export function AboutTwo(props){
                     <div class="filledbar"></div>
                     </div>
                     <div class="circle">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <svg id = "pic" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <circle class="stroke" cx="60" cy="60" r="50"/>
                     </svg>
                     </div>
