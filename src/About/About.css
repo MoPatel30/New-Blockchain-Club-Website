@@ -179,4 +179,91 @@ body{
   }
 
 }
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .profile{
+    min-width: 100%;
+    max-width: 100%;
+}
 
+.container{
+  flex-direction: column;
+  left: 11%;
+  top: 130%;
+}
+
+.bar{
+  top: 105px;
+  left:18%;
+}
+
+.card{
+  min-height: 125px;
+  width: 222px;
+  left:-10px;
+  box-shadow: .125rem 0.25rem 0.25rem 0.25rem grey;
+}
+
+.card:hover ~ .card {
+  left: 0px;
+}
+
+.circle{
+  display: none;
+}
+}
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  .sponsors{
+      position: relative;
+      left: 25%;
+      top: 116vh;
+      flex-direction: column;
+      width: fit-content;
+      justify-content: center;
+      align-items: center;
+  }
+  }
+  
+  @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+  /* Styles */
+  #about {
+    height: 260vh;
+    margin-top: 1200px;
+  }
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+  
+  .card{
+    min-height: 125px;
+    width: 222px;
+    left:-20px;
+    box-shadow: .125rem 0.25rem 0.25rem 0.25rem grey;
+  }
+
+
+  .container {
+    margin: auto;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    top: 100px;
+    left: 4%;
+    display: flex;
+  }
+  .bar{
+    width:115px;
+  }
+  .circle{
+    display:none;
+  }
+}

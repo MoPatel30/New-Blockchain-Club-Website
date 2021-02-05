@@ -67,3 +67,43 @@ body{
 
  
 }
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    #welcome-tag{
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    #mission{
+        font-size: 14px;
+        font-weight: 300;
+        text-align:center;
+        height: fit-content;
+        width: 75%;
+        margin-right: 25px;
+        margin: 0;
+    }
+    .body-part{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width:205px;
+    }
+    }
+    /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    .logo{
+        left:22px;
+    }
+}
+
+  
