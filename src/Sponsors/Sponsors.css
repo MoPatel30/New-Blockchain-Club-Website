@@ -137,23 +137,7 @@
 
 
 } 
-*/
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
-    .sponsors{
-        position: relative;
-        left: 25%;
-        top: 116vh;
-        flex-direction: column;
-        width: fit-content;
-        justify-content: center;
-        align-items: center;
-    }
-    }
-
-   
-    
+*/    
     /* iPads (portrait and landscape) ----------- */
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
@@ -394,15 +378,69 @@
     }
     }
     
-    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    /* Styles */
-    
-    }
     
     /* iPhone X ----------- */
 
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        /* Styles */
+        .sponsors{
+            position: relative;
+            left: 27%;
+            top: 116vh;
+            flex-direction: column;
+            width: fit-content;
+            justify-content: center;
+            align-items: center;
+        }
     
-    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+        .sponsor-info{
+            margin-left: 0px;
+        }
+     
+        .picture{
+            width: 100%;
+            height: 100%;
+            left: 27.5%;
+            position: relative;
+            top: -150px;
+        }
+    
+        .sponsor-pos{
+            min-height: 700px;
+            max-width: 90%;
+        }
+    
+        .left-arrow{
+            top: 130%;
+            left: 30%;
+            font-size: 2rem;
+    
+        }
+    
+        .sponsor-title{
+            position: relative;
+            right: 100px;
+            top: -75px;
+            font-size: 24px;
+        }
+    
+        .sponsor-desc{
+            position: relative;
+            right: 107px;
+            top: 100px;
+            margin-bottom: 125px;
+            font-size: 12px;
+            width: 150%;
+        }
+    
+        .right-arrow{
+            top: 130%;
+            right: 30%;
+            font-size: 2rem;
+        }
+        }
+        
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
     /* Styles */
     .sponsors{
         position: relative;
@@ -462,7 +500,7 @@
     }
     
     /* iPhone XS Max, XR ----------- */
-    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
     /* Styles */
     .sponsors{
         position: relative;
@@ -475,7 +513,7 @@
     }
     }
     
-    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    @media only screen and (min-device-width: 414px) and (max-device-width: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
     /* Styles */
     .sponsors{
         position: relative;
