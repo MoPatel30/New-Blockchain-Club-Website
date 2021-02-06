@@ -134,9 +134,9 @@ li a{
 }
 
 #about{
-    height: 100vh;
+    height: 127vh;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 40%;
     box-shadow: 0 8px 14px 0 rgba(60,60,60, 0.3);
     border: 1px solid #ededed;
     background-color: #f5f5f5;

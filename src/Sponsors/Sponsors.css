@@ -400,20 +400,9 @@
     }
     
     /* iPhone X ----------- */
-    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-    /* Styles */
-    .sponsors{
-        position: relative;
-        left: 25%;
-        top: 116vh;
-        flex-direction: column;
-        width: fit-content;
-        justify-content: center;
-        align-items: center;
-    }
-    }
+
     
-    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3){
     /* Styles */
     .sponsors{
         position: relative;
