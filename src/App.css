@@ -200,7 +200,7 @@ li a{
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
     .sponsors-pos{  
         position: relative;
@@ -215,7 +215,7 @@ li a{
    
     #about{
         height:115vh;
-        margin-top:25%;
+        margin-top:93%;
         width:95vw
     }
     .message-style {
@@ -229,7 +229,6 @@ li a{
        
     }
 }
-
 
 @media(max-width: 767px){
     .message-style{   
@@ -268,6 +267,20 @@ li a{
 }
 
 
+   /* iPhone 5 ----------- */
+   @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .message-style{   
+        border-radius: 0px 5px 5px 0px;
+        top: 0px;
+        margin-right: 8%; 
+        margin-left: 8%;  
+    }
+    #about {
+        height: 400vh;
+        margin-top: 1500px;
+    }
+    }
 
 @media(max-width: 376px){
    .about-pos{
