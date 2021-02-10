@@ -369,6 +369,19 @@ li a{
     }
     }
 
+    /* Iphone x (landscape) */
+    @media only screen and (min-device-width: 800px) and (max-device-height: 376px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+        .message-style {
+            border-radius: 0px 5px 5px 0px;
+            top: 20px;
+            margin-right: 0%;
+            margin-left: 25%;
+        }
+        #about{
+            height:270vh;
+        }
+    }
+
 
     
 

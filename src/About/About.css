@@ -266,3 +266,13 @@ body{
     display:none;
   }
 }
+/* Iphone x (landscape) */
+@media only screen and (min-device-width: 800px) and (max-device-height: 376px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+  .container{
+    flex-direction: row;
+    left:8%;
+  }
+  .card{
+    margin-left:-35px;
+  }
+}
