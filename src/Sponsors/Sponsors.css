@@ -275,46 +275,54 @@
     /* iPhone 5 ----------- */
     @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
     /* Styles */
-    .sponsors{
+    .sponsors {
         position: relative;
-        left: 4%;
+        left: 10%;
         top: 248vh;
-        flex-direction: column;
-        width: fit-content;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
     }
     .sponsor-desc {
-        font-size: 10px;
+        font-size: 8px;
         position: relative;
-        top: 30vh;
-        right: 38%;
+        top: 12vh;
+        right: 48%;
     }
     .sponsor-pos{
         max-width: 80%;
         height:115vh;
     }
-    .picture{
-        height: 90px;
-        width: 250px;
+    .picture {
+        height: 80px;
+        width: 95%;
         position: relative;
-        left:50%;
+        top: -50px;
+        left: 47%;
     }
     .sponsor-title {
         width: 350px;
         height: 50px;
-        font-size: 18px;
+        top: -50px;
+        font-size: 15px;
         position: relative;
-        right: 40%;
+        right: 52%;
     }
-    .left-arrow{
-        left:20%;
+    .left-arrow {
+        left: 20%;
+        top: 135%;
     }
     .right-arrow{
         right:20%;
+        top:135%;
+    }
+    .sponsor-info {
+        margin-left: 0px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
-
     }
     
     @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
