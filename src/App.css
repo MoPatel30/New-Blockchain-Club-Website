@@ -334,18 +334,25 @@ li a{
             top:580px;
         }
     }
+
+
+
+
     /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
     /* Styles */
     .message-style {
         border-radius: 0px 5px 5px 0px;
         top: 0px;
-        margin-right: 8%;
-        margin-left: 8%;
+        margin-right: 10%;
+        margin-left: 15%;
     }
     #about {
         height: 400vh;
         margin-top: 1500px;
+    }
+    #education{
+        top:400px;
     }
     .sponsors-pos {
         top: 34%;
