@@ -337,7 +337,19 @@ li a{
     /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
     /* Styles */
-    
+    .message-style {
+        border-radius: 0px 5px 5px 0px;
+        top: 0px;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    #about {
+        height: 400vh;
+        margin-top: 1500px;
+    }
+    .sponsors-pos {
+        top: 34%;
+    }
     }
     
     @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){

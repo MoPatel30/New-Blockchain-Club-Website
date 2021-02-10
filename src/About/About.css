@@ -223,15 +223,11 @@ body{
 /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
   /* Styles */
-  .sponsors{
-      position: relative;
-      left: 25%;
-      top: 116vh;
-      flex-direction: column;
-      width: fit-content;
-      justify-content: center;
-      align-items: center;
-  }
+  .container {
+    flex-direction: column;
+    left: 25%;
+    top: 130%;
+}
   }
   
   @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){

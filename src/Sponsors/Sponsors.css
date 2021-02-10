@@ -622,12 +622,42 @@
     /* Styles */
     .sponsors{
         position: relative;
-        left: 25%;
+        left: 13%;
         top: 116vh;
         flex-direction: column;
         width: fit-content;
         justify-content: center;
         align-items: center;
+    }
+    .sponsor-pos{
+        height:115vh;
+    }
+    .sponsor-title{
+        height: 50px;
+        width:265px;
+        position: relative;
+        right: 50%;
+        font-size: 18px;
+    }
+    .sponsor-desc {
+        font-size: 10px;
+        position: relative;
+        top: 30vh;
+        right: 48%;
+    }
+    .picture{
+        height: 90px;
+        width: 250px;
+        position: relative;
+        left:41%;
+    }
+    .left-arrow{
+        left:20%;
+        font-size:2.6rem;
+    }
+    .right-arrow{
+        right:20%;
+        font-size:2.6rem;
     }
     }
     
@@ -689,3 +719,4 @@
         font-size: 2rem;
     }
     }
+   
